@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+.product{
+  display:inline-block;
+  width: 110px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  background-color: rgb(199, 218, 235);
+  border: 1px solid rgb(128, 160, 189);
+  border-radius: 3px;
+  margin-right: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.price{
+  display:inline-block;
+  width: 116px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  background-color: rgb(199, 218, 235);
+  border: 1px solid rgb(128, 160, 189);
+  border-radius: 3px;
+  margin-right: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.total{
+  display:inline-block;
+  width: 120px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  background-color: rgb(199, 218, 235);
+  border: 1px solid rgb(128, 160, 189);
+  border-radius: 3px;
+  margin-right: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-increment{
+  margin-bottom: 4px;
+  font-weight: bold;
+  padding-bottom:5.5px;
+  letter-spacing: .3px 
+}
+.button-delete{
+  position: relative;
+  bottom:2px;
+  font-weight: bold;
+  padding-bottom:5.5px;
+  letter-spacing: .3px 
 }
 
-.App-link {
-  color: #61dafb;
+.button-reset{
+  font-size: 1rem;
+  letter-spacing: .5px;
+  font-weight: bold;
+  inline-size: 10.7rem;
+  padding: 5.5px;
+  border: none;
+  position:relative;
+  right: 7px;
+  left:395px;
+  top:86px;
+  padding-bottom: 7.5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-shopping{
+  margin-left: 5px;
+  font-size:1.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.navbar-total{
+  position: relative;
+  top:2px;
+  font-size:1.5rem;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 12px;
+}
+.badge-descrip{
+  font-family: 'Oswald', sans-serif;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.container-titles{
+  display:flex;
+  gap:7px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 40px;
+}
+
+.container-titles h5{
+  border-radius: 3px;
+  padding: 7px;
+  background:rgb(46, 41, 41);
+  color:aliceblue
+}
+
+.container-price{
+  inline-size: 118px;
+}
+.container-total{
+  inline-size:120px;
 }
